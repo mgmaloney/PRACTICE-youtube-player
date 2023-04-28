@@ -241,6 +241,8 @@ const eventListeners = () => {
 
     data.push(newVideoObj);
 
+    cardsOnDom(data);
+
     // Close modal and reset form
     formModal.hide();
     form.reset();
